@@ -177,6 +177,9 @@ class UndoDataHolder
         stackFuerGeloeschteDatensaetze = new ArrayDeque<>();
     }
     
+	/**
+	 *	Adresszeile an Stapel anhängen
+	 */
     public void addData(ArrayList<String> adressEintraegeDaten)
     {
         System.out.println(adressEintraegeDaten);
